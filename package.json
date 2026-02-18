@@ -1,0 +1,22 @@
+{
+  "name": "sap-btp-demo",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@cap-js/hana": "^2",
+    "@sap/cds": "^9",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {},
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
